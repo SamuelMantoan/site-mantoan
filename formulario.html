@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Site pessoal Samuel Mantoan</title>
+  </head>
+  <body   class="fundo">
+    <div class="container">
+
+	<div id="banner">
+		<img src="imagens/banner.jpg" alt="banner" height="200" width="980">
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="sobremim.html">Sobre mim</a></li>
+			<li><a href="series.html">Series/Animes</a></li>
+			<li><a href="jogos.html">Jogos</a></li>
+			<li><a href="formulario.html">Formulario</a></li>
+		</ul>
+	</div>
+	<div id="conteudo">
+		<h3>Deixe aqui seu recado</h3><br>
+		<form id="recado" name="recado" action="recados-enviar.php" method="POST" onsubmit="return validaCampo(); return false;">
+		   	<div>
+			 	<label for="txtnome">Nome:</label>			 	
+			   	<input type="text" name="txtnome">
+		   	</div>			
+		   	<div>
+			 	<label for="optturma">Turma:</label>
+			   		<select name="optturma">
+				   		<option value="0"> Selecione...</option>
+						<option value="1C"> 1ºC </option>
+						<option value="2C"> 2ºC </option>
+						<option value="3C"> 3ºC </option>
+			   		</select> 
+		   	</div>	
+		   	<div>
+				<label for="txtrecado">Mensagem:</label><br>
+				<textarea name="txtrecado" cols="30" rows="5"></textarea>
+		   	</div>
+			<br>
+		   	<div>
+			 	<div>
+				 	<input type="submit" class="form-submit-button" value="Enviar recado">
+			 	</div>
+		   	</div>
+		</form>
+		<br>
+	</div>		
+    <div id="footer">
+    <h5><i>Todos os direitos reservados </i></h5>
+    <p><i>Desenvolvido por Samuel Mantoan - 2021</i></p>
+  </div>
+  </div>
+</form>
+</body>
+</html>

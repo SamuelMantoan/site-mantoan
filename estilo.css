@@ -1,0 +1,124 @@
+/*
+folha de estilo para site pessoal Samuel Mantoan
+data: 2/08/2021
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ body {
+ 	font-family: verdana, arial, sans-serif;
+ 	font-size: 12px;
+ }
+ 
+ .fundo{
+  background-color: black;
+}
+  h1 {
+  	color: #bb0022;
+  	font-size: 24px;
+  	text-align: center;
+  	padding-top: 20px;
+  }
+  h3 {
+    color: #bb0022;
+    text-align: center;
+  }
+  h4 {
+    color: #bb0022;
+  }
+  h5{
+    color: blue;
+  }
+  p {
+    color: #bb0022
+  }
+  #container {
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  #navbar  {
+  	background-color: #000000;
+  	width:  980px;
+  	height: 70px;
+  }
+  #navbar p {
+  	font-size: 16px; 
+  	font-style: italic;
+  	text-align: center;
+  }
+  #banner {
+  	width: 980px;
+  	height: 200px;
+  }
+  #menu {
+  	background: #000000;
+  	width: 980px;
+  	height: 40px;
+  }
+  #menu ul {
+  	list-style-type: none;
+  	text-transform: uppercase;
+  }
+  #menu ul li {
+    float: left;
+  }
+  #menu ul li a {
+    font-size: 18px;
+    width: 190px;
+    display: block;
+    text-align: center;
+    color: #bb0022;
+    text-decoration: none;
+    padding: 3px 0px;
+  }
+  #menu ul li a:hover {
+    color: #e03809;
+    font-size: 20px;
+    background-color: #540903;
+  }
+  #main1 {
+    background-color: #000000;
+    width: 980px;
+    height: 320px;
+  }
+  .cols {
+    width: 320px;
+    padding: 20px 3px;
+    float: left;
+    text-align: center;
+  }
+  #main h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+  }
+   #main2 {
+    clear: both;
+
+  }
+
+   #main2 h3 {
+    font-size: 15px;
+    font-style: italic;
+    line-height: 20px;
+    text-align: center;
+    padding: 30px 30px;
+  }
+  #main2 h5 {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 25px;
+    text-align: center;
+    padding: 20px 15px;
+  }
+  #footer {
+    clear: both;
+    font-size: 16px;
+    width: 995px;
+    padding: 18px 1 35px;
+    background-color: #000000;
+    text-align: center;
+  }
